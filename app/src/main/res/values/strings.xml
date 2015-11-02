@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pingos</string>
+ <string name="action_settings">Settings</string>
+    <string name="title_activity_paint">Vamos colorir!</string>
+    <string name="button_play">Entrar</string>
+    <string name="paint">Pintar</string>
+    <string name="resetDrawing">Resetar</string>
+    <string name="save">Salvar</string>
+    <string name="erase">Apagar</string>
+    <string name="btnInfo">Info</string>
+    <string name="title_activity_waiting">WaitingActivity</string>
+    <string name="btnPlay">Play</string>
+    <string name="title_activity_word">WordActivity</string>
+    <string name="title_activity_puzzle">PuzzleActivity</string>
+    <string name="title_activity_video">A Árvore Azul</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

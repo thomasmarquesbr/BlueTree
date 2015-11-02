@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.lmd.bluetree.bluetreeapp.WordActivity"
+    android:id="@+id/rLayoutWordActivity"
+    android:background="#000000"
+    >
+
+    <RelativeLayout
+        android:id="@+id/containerTop1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgwords"
+        android:tag="PRO"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/containerTop2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgwords"
+        android:tag="FES"
+        android:layout_alignTop="@+id/containerTop1"
+        android:layout_alignLeft="@+id/containerBottom2"
+        android:layout_alignStart="@+id/containerBottom2">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/containerTop3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgwords"
+        android:tag="SO"
+        android:layout_alignTop="@+id/containerTop2"
+        android:layout_toRightOf="@+id/containerTop2"
+        android:layout_toEndOf="@+id/containerTop2"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/containerTop4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgwords"
+        android:tag="RA"
+        android:layout_alignTop="@+id/containerTop3"
+        android:layout_alignLeft="@+id/containerBottom4"
+        android:layout_alignStart="@+id/containerBottom4">
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/containerBottom1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgwordslarge"
+        android:tag="null"
+        android:layout_above="@+id/btnConfirm"
+        android:layout_alignLeft="@+id/containerTop1"
+        android:layout_alignStart="@+id/containerTop1">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wordra"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:tag="RA"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/containerBottom2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgwordslarge"
+        android:tag="null"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:layout_alignTop="@+id/containerBottom1"
+        android:layout_toRightOf="@+id/containerBottom1"
+        android:layout_toEndOf="@+id/containerBottom1">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wordso"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:tag="SO"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/containerBottom3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgwordslarge"
+        android:tag="null"
+        android:layout_above="@+id/btnConfirm"
+        android:layout_alignLeft="@+id/containerTop3"
+        android:layout_alignStart="@+id/containerTop3">
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wordfes"
+            android:tag="FES"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/containerBottom4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgwordslarge"
+        android:tag="null"
+        android:layout_alignTop="@+id/containerBottom3"
+        android:layout_toLeftOf="@+id/btnConfirm"
+        android:layout_toStartOf="@+id/btnConfirm">
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wordpro"
+            android:tag="PRO"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btnnextdefault"
+        android:id="@+id/btnConfirm"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
